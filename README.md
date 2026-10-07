@@ -50,10 +50,6 @@ python -m http.server 8765
 
 Luego abre `http://localhost:8765`. En Windows también puedes hacer doble clic en `servir.bat`, que además muestra la dirección para probar desde el celular (misma red WiFi).
 
-## Despliegue
-
-Sube `index.html`, `map-data.js` y las imágenes (`logo.*`, `favicon.png`, `apple-touch-icon.png`) a un repositorio y conéctalo a [Vercel](https://vercel.com). No necesita configuración ni comando de build.
-
 ## Regenerar el mapa
 
 `bake_map.py` convierte un JSON de Overpass (OpenStreetMap, `out geom`) en `map-data.js`:
